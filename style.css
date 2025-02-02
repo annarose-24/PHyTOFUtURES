@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+}
+
+header {
+    background-image: url('https://images.unsplash.com/photo-1564352969906-8b7f46ba4b8b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JlZW58ZW58MHx8MHx8fDA%3D');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(239, 243, 247);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: black;
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title h1 {
+    color: #6e074c;
+    font-size: 70px;
+}
+
+.button {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5s ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.sub-menu-content,
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.sub-menu-content li,
+.dropdown-content li {
+    display: block; /* Ensure items are stacked vertically */
+    padding: 12px 16px;
+}
+
+.sub-menu-content li a,
+.dropdown-content li a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub-menu-content li a:hover,
+.dropdown-content li a:hover {
+    background-color: #ddd;
+}
+
+/* Show dropdown content when hovering over Resources */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Show sub-menu content when hovering over Login */
+.sub-menu:hover .sub-menu-content {
+    display: block;
+}
+
+.searchBar input {
+    width: 95%;
+    padding: 10px;
+    outline: none;
+}
+
+p {
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.group {
+    margin-top: 20px;
+}
